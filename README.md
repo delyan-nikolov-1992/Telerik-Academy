@@ -10,3 +10,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 02. C# Programming – Part II (11/12/2013 - 26/01/2014):
 
 	Exam: 5 tasks for 6 hours
+	
+03. Object-Oriented Programming (30/01/2014 - 10/03/2014):
+
+	Exam: 2 tasks for 6 hours
