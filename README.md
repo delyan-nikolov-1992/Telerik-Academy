@@ -22,3 +22,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 05. CSS Styling (31/03/2014 - 25/04/2014):
 
 	Exam: 3 tasks for 3 hours
+	
+06. JavaScript Fundamentals (28/04/2014 - 20/05/2014):
+
+	Exam: 4 tasks (1 task bonus) for 4 hours
