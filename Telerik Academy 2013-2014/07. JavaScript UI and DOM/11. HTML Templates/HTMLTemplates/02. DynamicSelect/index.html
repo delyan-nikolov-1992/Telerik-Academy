@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Select</title>
+</head>
+<body>
+    <div id="container"></div>
+    <script id="select-template" type='text/x-handlebars-template'>
+        <select>
+            {{#each items}}
+            <option value={{value}}>{{text}}</option>
+            {{/each}}
+        </select>
+    </script>
+    <script src="handlebars.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿div {
+    border: 1px solid black;
+}
+
+#slider {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+#current-slide {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 550px;
+    height: 350px;
+}
+
+article {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Select</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div id="book-items-container">
+        <ul id="books-list" data-template="book-item-template"></ul>
+    </div>
+    <div id="table-students">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody id="students-table" data-template="students-row-template"></tbody>
+        </table>
+    </div>
+    <script id="book-item-template" type="text/x-handlebars-template">
+        {{#each books}}
+        <li class="book-item">
+            <a href="/#books/{{id}}">
+                <strong>{{title}}</strong>
+            </a>
+        </li>
+        {{/each}}
+    </script>
+    <script id="students-row-template" type="text/x-handlebars-template">
+        {{#each students}}
+        <tr class="student-row">
+            <td>{{number}}</td>
+            <td>{{name}}</td>
+            <td>{{mark}}</td>
+        </tr>
+        {{/each}}
+    </script>
+    <script src="jquery.min.js"></script>
+    <script src="handlebars.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

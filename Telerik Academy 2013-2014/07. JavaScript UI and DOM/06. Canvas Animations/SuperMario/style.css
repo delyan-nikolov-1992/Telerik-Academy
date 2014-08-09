@@ -1,0 +1,16 @@
+﻿body {
+    z-index: 10;
+}
+
+div {
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

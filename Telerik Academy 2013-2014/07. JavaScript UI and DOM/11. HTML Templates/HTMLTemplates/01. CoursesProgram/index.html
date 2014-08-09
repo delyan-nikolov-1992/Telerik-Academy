@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course's Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="program-container"></div>
+    <script id="program-template" type='text/x-handlebars-template'>
+        <table>
+            <thead>
+                <tr>
+                    <th>&#x2116;</th>
+                    <th>Title</th>
+                    <th>Date &#35;1</th>
+                    <th>Date &#35;2</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each program}}
+                <tr>
+                    <td>{{id}}</td>
+                    <td>{{title}}</td>
+                    <td>{{firstDate}}</td>
+                    <td>{{secondDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+    <script src="handlebars.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

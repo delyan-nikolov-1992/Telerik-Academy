@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Select</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Mark</th>
+            </tr>
+        </thead>
+        <tbody id="students-table">
+            <tr class="student-row">
+                <td>{{number}}</td>
+                <td>{{name}}</td>
+                <td>{{mark}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <script id="students-row-template" type="text/x-handlebars-template"></script>
+    <script src="handlebars.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="listView.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

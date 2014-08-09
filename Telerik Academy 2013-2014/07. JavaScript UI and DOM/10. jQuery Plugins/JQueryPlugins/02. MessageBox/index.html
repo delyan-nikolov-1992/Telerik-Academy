@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Message Box</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <button id="on-success-btn">Success</button>
+    <button id="on-error-btn">Error</button>
+    <div id="message-box"></div>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(function () {
+            $('#message-box').messageBox();
+        });
+    </script>
+</body>
+</html>

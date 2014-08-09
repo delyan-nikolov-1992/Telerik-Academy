@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Snake</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <strong>Lives: </strong><span id="lives"></span>
+    <strong>Points: </strong><span id="points"></span>
+    <section class="clearfix">
+        <canvas id="gameField"></canvas>
+        <aside id="legend">
+            <strong>High Score table</strong>
+            <table>
+                <thead>
+                    <th></th>
+                    <th class="textCenter">Name</th>
+                    <th class="textCenter">Score</th>
+                </thead>
+                <tbody id="highscoreTable">
+                </tbody>
+            </table>
+        </aside>
+    </section>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -26,3 +26,6 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 06. JavaScript Fundamentals (28/04/2014 - 20/05/2014):
 
 	Exam: 4 tasks (1 task bonus) for 4 hours
+	
+07. JavaScript UI and DOM (28/05/2014 - 19/06/2014):
+	Exam: 3 tasks for 6 hours
