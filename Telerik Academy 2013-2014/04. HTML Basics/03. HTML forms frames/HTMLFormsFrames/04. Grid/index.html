@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grid</title>
+</head>
+<body>
+    <form>
+        <table border="1" style="text-align: left">
+            <thead>
+                <tr>
+                    <th colspan="6">Drag a column header and drop it here to group by that column</th>
+                </tr>
+                <tr>
+                    <th>ProductID</th>
+                    <th>Product name</th>
+                    <th>Unit price</th>
+                    <th>Quantity per unit</th>
+                    <th>Units in stock</th>
+                    <th>Discontinued</th>
+                </tr>
+                <tr>
+                    <th>
+                        <input style="width: 20px" type="text" name="productID" /></th>
+                    <th>
+                        <input style="width: 70px" type="text" name="name" /></th>
+                    <th>
+                        <input style="width: 50px" type="text" name="price" /></th>
+                    <th>
+                        <input style="width: 50px" type="text" name="quantity" /></th>
+                    <th>
+                        <input style="width: 50px" type="text" name="units" /></th>
+                    <th>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        <button>&lt;&lt;</button>
+                        <button>&lt;</button>
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">6</a>
+                        <a href="">7</a>
+                        <a href="">8</a>
+                        <a href="">9</a>
+                        <a href="">10</a> ...
+                        <button>&lt;</button>
+                        <button>&lt;&lt;</button>
+                        Page size:
+						<select name="page">
+                            <option id="value10" value="10" selected="selected">10</option>
+                            <option id="value9" value="9">9</option>
+                            <option id="value8" value="8">8</option>
+                            <option id="value7" value="7">7</option>
+                            <option id="value6" value="6">6</option>
+                            <option id="value5" value="5">5</option>
+                            <option id="value4" value="4">4</option>
+                            <option id="value3" value="3">3</option>
+                            <option id="value2" value="2">2</option>
+                            <option id="value1" value="1">1</option>
+                        </select>
+                        335104 items in 33511 pages
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chai</td>
+                    <td>&#36;18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chang</td>
+                    <td>&#36;19.00</td>
+                    <td>24 - 12 oz bottles</td>
+                    <td>17</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aniseed Syrup</td>
+                    <td>&#36;10.00</td>
+                    <td>12 - 550 ml bottles</td>
+                    <td>13</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chef Anton's Cajun Seasoning</td>
+                    <td>&#36;22.00</td>
+                    <td>48 - 6 oz jars</td>
+                    <td>53</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Chef Anton's Gumbo Mix</td>
+                    <td>&#36;21.35</td>
+                    <td>36 boxes</td>
+                    <td>0</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" checked="checked" /></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Grandma's Boysenberry Spread</td>
+                    <td>&#36;25.00</td>
+                    <td>12 - 8 oz jars</td>
+                    <td>120</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Uncle Bob's Organic Dried Pears</td>
+                    <td>&#36;30.00</td>
+                    <td>12 - 1 lb pkgs.</td>
+                    <td>15</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Northwoods Cranberry Sauce</td>
+                    <td>&#36;40.00</td>
+                    <td>12 - 12 oz jars</td>
+                    <td>6</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Mishi Kobe Niku</td>
+                    <td>&#36;97.00</td>
+                    <td>18 - 500 g pkgs.</td>
+                    <td>29</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" checked="checked" /></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Ikura</td>
+                    <td>&#36;31.00</td>
+                    <td>12 - 200 ml jars</td>
+                    <td>31</td>
+                    <td>
+                        <input type="checkbox" name="discontinued" disabled="disabled" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
