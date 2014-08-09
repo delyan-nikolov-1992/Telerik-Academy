@@ -1,0 +1,31 @@
+﻿body {
+    font-size: 16px;
+    background-color: #808080;
+}
+
+h1:not(:only-child), section + footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+h1, li a {
+    color: white;
+}
+
+li:nth-child(2n+1) a {
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: none;
+    background-color: #e9e1e1;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}

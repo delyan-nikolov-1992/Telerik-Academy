@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial;
+}
+
+#root {
+    width: 610px;
+    margin: 8px;
+    color: rgb(42, 160, 189);
+}
+
+    #root > h1 {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.9em;
+        margin-bottom: 24px;
+    }
+
+ul {
+    list-style: none;
+}
+
+.chat-container {
+    position: relative;
+    display: inline-block;
+    height: 499px;
+    width: 300px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    background: #4ae871; /* Old browsers */
+    background: -moz-linear-gradient(top, #4ae871 0%, #4ae871 45%, #f1ffbc 76%, #f1ffbc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ae871), color-stop(45%,#4ae871), color-stop(76%,#f1ffbc), color-stop(100%,#f1ffbc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4ae871 0%,#4ae871 45%,#f1ffbc 76%,#f1ffbc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4ae871 0%,#4ae871 45%,#f1ffbc 76%,#f1ffbc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4ae871 0%,#4ae871 45%,#f1ffbc 76%,#f1ffbc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4ae871 0%,#4ae871 45%,#f1ffbc 76%,#f1ffbc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ae871', endColorstr='#f1ffbc',GradientType=0 ); /* IE6-9 */
+}
+
+    .chat-container > h2 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+.sent-message {
+    position: absolute;
+    top: 463px;
+    left: 5px;
+}
+
+input, button {
+    background: rgb(241, 255, 188);
+    border: 1px solid rgb(204, 204, 204);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(42, 160, 189);
+    font-size: 1.1em;
+}
+
+input {
+    padding-left: 15px;
+    height: 34px;
+    width: 185px;
+}
+
+button {
+    height: 36px;
+    width: 77px;
+}
+
+    button:hover {
+        background: #4ae871; /* Old browsers */
+        background: -moz-linear-gradient(top, #4ae871 0%, #4de872 7%, #f1ffbc 79%, #f1ffbc 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ae871), color-stop(7%,#4de872), color-stop(79%,#f1ffbc), color-stop(100%,#f1ffbc)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #4ae871 0%,#4de872 7%,#f1ffbc 79%,#f1ffbc 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #4ae871 0%,#4de872 7%,#f1ffbc 79%,#f1ffbc 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #4ae871 0%,#4de872 7%,#f1ffbc 79%,#f1ffbc 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #4ae871 0%,#4de872 7%,#f1ffbc 79%,#f1ffbc 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ae871', endColorstr='#f1ffbc',GradientType=0 ); /* IE6-9 */
+    }
+
+strong {
+    display: block;
+    font-weight:normal;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+ul > li {
+    border-bottom: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+    ul > li:last-of-type {
+        border-bottom: none;
+    }
+
+#me .other, #other .other {
+    text-align: right;
+}

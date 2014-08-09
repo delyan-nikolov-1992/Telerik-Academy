@@ -1,0 +1,46 @@
+﻿article {
+    width: 500px;
+    height: 700px;
+    background-color: #eee;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+h4 {
+    margin: 8px;
+    font-weight: normal;
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    height: 150px;
+    width: 420px;
+    background-color: white;
+    margin: 40px 10px;
+    padding: 15px;
+}
+
+img {
+    height: 140px;
+    width: 160px;
+    float: left;
+    clear: both;
+}
+
+p {
+    margin: 0px 30px 23px 170px;
+}
+
+footer {
+    margin: 55px 0px 10px 250px;
+}
+
+button {
+    height: 25px;
+    width: 75px;
+    color: white;
+    background: url(Images/Button.png);
+}

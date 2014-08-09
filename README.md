@@ -18,3 +18,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 04. HTML Basics (12/03/2014 - 25/03/2014):
 
 	Test: 30 questions for 50 minutes
+	
+05. CSS Styling (31/03/2014 - 25/04/2014):
+
+	Exam: 3 tasks for 3 hours
