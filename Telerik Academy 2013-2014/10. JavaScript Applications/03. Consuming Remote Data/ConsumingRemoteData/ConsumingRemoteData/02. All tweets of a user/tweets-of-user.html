@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>All Tweets of a User</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="tb-name">Name: </label>
+    <input id="tb-name" name="tb-name" type="text" />
+    <br />
+    <button id="btn-list-tweets">List tweets</button>
+    <div class="messages">
+        <strong class="message success"></strong>
+        <strong class="message error"></strong>
+    </div>
+    <div id="tweets-container"></div>
+    <p class="info">This web page should be run on a server (localhost or in WWW).</p>
+    <div class="info">
+        Making the request there is a problem:
+        {"errors":[{"message":"Bad Authentication data","code":215}]}
+        Twitter has strong security and is not allowed to view the tweets of a user without OAuth.
+    </div>
+    <script src="jquery-2.0.2.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

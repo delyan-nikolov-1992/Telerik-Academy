@@ -38,3 +38,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 09. JavaScript OOP (25/06/2014 - 07/07/2014):
 
 	Exam: 1 task for 3 hours
+	
+10. JavaScript Applications (16/07/201 - 07/08/2014):
+
+	Exam: 1 task for 6 hours
