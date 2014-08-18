@@ -39,6 +39,10 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 
 	Exam: 1 task for 3 hours
 	
-10. JavaScript Applications (16/07/201 - 07/08/2014):
+10. High-Quality Code (28/04/2014 - 06/08/2014):
+
+	Exam: 1 task for 7 hours
+	
+11. JavaScript Applications (16/07/2014 - 07/08/2014):
 
 	Exam: 1 task for 6 hours

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. FactoryMethod", "FactoryMethod\01. FactoryMethod.csproj", "{F95305E8-BDD2-484E-B2DF-30A69CEBC80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Decorator", "Decorator\02. Decorator.csproj", "{8B9EBBED-3051-481E-87C7-023224548194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Strategy", "Strategy\03. Strategy.csproj", "{845FE194-2593-473C-AD75-D7D315CCC9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95305E8-BDD2-484E-B2DF-30A69CEBC80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95305E8-BDD2-484E-B2DF-30A69CEBC80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95305E8-BDD2-484E-B2DF-30A69CEBC80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95305E8-BDD2-484E-B2DF-30A69CEBC80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9EBBED-3051-481E-87C7-023224548194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9EBBED-3051-481E-87C7-023224548194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9EBBED-3051-481E-87C7-023224548194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9EBBED-3051-481E-87C7-023224548194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845FE194-2593-473C-AD75-D7D315CCC9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845FE194-2593-473C-AD75-D7D315CCC9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845FE194-2593-473C-AD75-D7D315CCC9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845FE194-2593-473C-AD75-D7D315CCC9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. CompareArithmetic", "CompareArithmetic\02. CompareArithmetic.csproj", "{75CE77C6-CA4D-48AF-919F-AE0BD4FCE30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. CompareOperations", "CompareOperations\03. CompareOperations.csproj", "{582B2288-0274-4A21-B787-15C53E8DCCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. CompareSorting", "CompareSorting\04. CompareSorting.csproj", "{C057A9EC-0CC4-46CE-B7D5-2E669C1E0E09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75CE77C6-CA4D-48AF-919F-AE0BD4FCE30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CE77C6-CA4D-48AF-919F-AE0BD4FCE30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CE77C6-CA4D-48AF-919F-AE0BD4FCE30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CE77C6-CA4D-48AF-919F-AE0BD4FCE30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582B2288-0274-4A21-B787-15C53E8DCCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582B2288-0274-4A21-B787-15C53E8DCCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582B2288-0274-4A21-B787-15C53E8DCCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582B2288-0274-4A21-B787-15C53E8DCCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C057A9EC-0CC4-46CE-B7D5-2E669C1E0E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C057A9EC-0CC4-46CE-B7D5-2E669C1E0E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C057A9EC-0CC4-46CE-B7D5-2E669C1E0E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C057A9EC-0CC4-46CE-B7D5-2E669C1E0E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

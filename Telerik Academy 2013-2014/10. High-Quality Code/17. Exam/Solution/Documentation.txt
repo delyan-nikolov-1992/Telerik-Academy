@@ -1,0 +1,53 @@
+Design pattern: Simple Factory
+	* Used to separate the generating of computers. The interface is IGenerateComputers().
+
+Design pattern: Strategy
+	* Used to encapsulate the generating of computers. Each instance of the interface IGenerateComputers()
+	  overrides the methods in the interface and makes its logic inside the class. The Simple Factory and
+	  Strategy are used for this case. The first one separates the components and the second one defines the logic.
+
+Design pattern: Template Method
+	* 
+
+Design pattern: Abstract factory
+	* Used to make the proper validation for a property that is in the parent class, but only one child class needs a 
+	  validation. It is the VideoCard property in the Computer class, which is validated only of the child class Server,
+	  because all other children can have any VideoCard as property.
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* 
+
+Found bottlenecks:
+	* In the method Rand(int a, int b) in the Cpu class there was do while, which is useless.
+	  It generates a random int between 1 and 1000, but it should generate random int between the boundaries.
+	  The do while is removed.
+	* The hardDrives in the class HardDriver was initialized as List, but the List is slower. So it is bettew to make
+	  it IEnumerable instead of List.
+
+Found bugs:
+	* When the battery charges it should print the message with a percentage symbol at the end:
+      this.VideoCard.Draw(string.Format("Battery status: {0}%", this.battery.Percentage));+
+	* The hard drive in the CPU class was never assigned. Added to the constructor:
+	  this.videoCard = videoCard;
+	* The value in the class RAMMemory is not correctly set. In the constructor is set the variable Amount 
+	  and in the methods Save and Load it is used the variable value. Must use only one of the variables 
+	  for all operations.
+
+Single responsibility principle
+	* All of the SOLID Principles are in the project. There is no time to document eventything. You can
+	  see the solution yourself.
+
+Open/closed principle
+	* 
+
+Liskov substitution principle
+	* 
+
+Interface segregation principle
+	* 
+
+Dependency inversion principle
+	* 
