@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students xmlns="urn:students" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="urn:students file://./students.xsd">
+  <student>
+    <name>Trifon Zarezan</name>
+    <sex>Male</sex>
+    <birth-date>1994-04-08</birth-date>
+    <phone>0888121464</phone>
+    <email>crazy_man@gmail.com</email>
+    <course>Second</course>
+    <specialty>Computer science</specialty>
+    <faculty-number>191754196</faculty-number>
+    <taken-exams>
+      <exam>
+        <exam-name>OOP</exam-name>
+        <tutor>Michael Schweinsteiger</tutor>
+        <score>4.54</score>
+      </exam>
+      <exam>
+        <exam-name>Databases</exam-name>
+        <tutor>Ivaylo Kenov</tutor>
+        <score>6.00</score>
+      </exam>
+    </taken-exams>
+  </student>
+  <student>
+    <name>Saint Patrick</name>
+    <sex>Male</sex>
+    <birth-date>1960-12-12</birth-date>
+    <phone>0897125464</phone>
+    <email>dude1960@gmail.com</email>
+    <course>Frrst</course>
+    <specialty>Computer science</specialty>
+    <faculty-number>191754197</faculty-number>
+    <taken-exams>
+      <exam>
+        <exam-name>OOP</exam-name>
+        <tutor>Michael Schweinsteiger</tutor>
+        <score>3.54</score>
+      </exam>
+      <exam>
+        <exam-name>Databases</exam-name>
+        <tutor>Ivaylo Kenov</tutor>
+        <score>3.00</score>
+      </exam>
+    </taken-exams>
+  </student>
+</students>

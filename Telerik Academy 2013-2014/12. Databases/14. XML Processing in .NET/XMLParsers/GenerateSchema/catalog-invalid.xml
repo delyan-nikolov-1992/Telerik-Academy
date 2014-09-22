@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Going to Nebraska</name>
+    <artist>Titto Vilanova</artist>
+    <year>2008</year>
+    <producer>Admirates Production</producer>
+    <price>10.50</price>
+    <songs>
+      <song>
+        <title>Mamma mia</title>
+        <duration>03:42</duration>
+      </song>
+      <song>
+        <title>You are gone</title>
+        <duration>04:04</duration>
+      </song>
+      <song>
+        <title>Think of me</title>
+        <duration>03:59</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Going to Nebraska</name>
+    <artist>Titto Vilanova</artist>
+    <year>2008</year>
+    <producer>Admirates Production</producer>
+    <price>10.50</price>
+    <songs>
+      <song>
+        <title>Think of me please</title>
+        <duration>03:42</duration>
+      </song>
+      <song>
+        <title>You are gone</title>
+        <duration>04:04</duration>
+      </song>
+      <song>
+        <title>Think of me</title>
+        <duration>03:59</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Going to Nebraska</name>
+    <artist>Pedro Vilanova</artist>
+    <year>2002</year>
+    <producer>Admirates Production</producer>
+    <price>40.50</price>
+    <songs>
+      <song>
+        <title>Mamma mia</title>
+        <duration>03:42</duration>
+      </song>
+      <song>
+        <title>You are gone</title>
+        <duration>04:04</duration>
+      </song>
+      <song>
+        <title>Think of me</title>
+        <duration>03:59</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

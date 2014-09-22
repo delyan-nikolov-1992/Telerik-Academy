@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. BinaryPasswords", "BinaryPasswords\01. BinaryPasswords.csproj", "{6DD1C83A-9369-4335-9F17-87D6F89FF46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. ColourRabbits", "ColourRabbits\02. ColourRabbits.csproj", "{326A09C1-5711-4596-B651-F95C1FCE473D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Divisors", "Divisors\03. Divisors.csproj", "{6A12D5CE-A8C2-4294-8B31-6AA363E70BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. ColumnOfColorBalls", "ColumnOfColorBalls\04. ColumnOfColorBalls.csproj", "{BD987337-911A-4B08-BE24-2A4368F720E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD1C83A-9369-4335-9F17-87D6F89FF46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD1C83A-9369-4335-9F17-87D6F89FF46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD1C83A-9369-4335-9F17-87D6F89FF46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD1C83A-9369-4335-9F17-87D6F89FF46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A09C1-5711-4596-B651-F95C1FCE473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A09C1-5711-4596-B651-F95C1FCE473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A09C1-5711-4596-B651-F95C1FCE473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A09C1-5711-4596-B651-F95C1FCE473D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A12D5CE-A8C2-4294-8B31-6AA363E70BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A12D5CE-A8C2-4294-8B31-6AA363E70BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A12D5CE-A8C2-4294-8B31-6AA363E70BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A12D5CE-A8C2-4294-8B31-6AA363E70BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD987337-911A-4B08-BE24-2A4368F720E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD987337-911A-4B08-BE24-2A4368F720E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD987337-911A-4B08-BE24-2A4368F720E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD987337-911A-4B08-BE24-2A4368F720E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

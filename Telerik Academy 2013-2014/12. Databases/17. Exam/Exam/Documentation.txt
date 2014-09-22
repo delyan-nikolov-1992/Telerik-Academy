@@ -1,0 +1,27 @@
+Connection string for "Company" database: (location)
+<connectionStrings>
+	<add name="CompanyEntities" connectionString="metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+</connectionStrings>
+It is in the file "App.config" in project "Company.SampleDataGenerator" in solution "Company"
+
+Connection string for "Cars" database: (location)
+<connectionStrings>
+	<add name="Cars" connectionString="Data Source=.;Initial Catalog=Cars;Integrated Security=True" providerName="System.Data.SqlClient" />
+</connectionStrings>
+It is in the file "App.config" in project "Cars.SampleDataGenerator" in solution "Cars"
+
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+(Employees : Employees(or so called Managers) - many-to-one relationship)
+(Employees : Depatments - many-to-one relationship)
+(Employees : Projects - many-to-many relationship with the table EmployeesProjects)
+(Employees : Reports - one-to-many relationship)
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+(Cars : Manufacturers - many-to-one relationship)
+(Cars : Dealers - many-to-one relationship)
+(Dealers : Cities - many-to-many relationship)
+
+Query files: (file location in solution)
+JSON files are in path="../../../JSON files/"
+Query file is in path="../../../Queries.xml"
+The result xml files of the Query file are in path="../../../Query results/"

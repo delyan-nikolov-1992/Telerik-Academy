@@ -46,3 +46,11 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 11. JavaScript Applications (16/07/2014 - 07/08/2014):
 
 	Exam: 1 task for 6 hours
+	
+12. Databases (19/08/2014 - 05/09/2014):
+
+	Exam: 2 tasks for 8 hours
+	
+13. Data Structures and Algorithms (20/08/2014 - 14/09/2014):
+
+	Exam: 5 tasks for 8 hours

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars>
+  <Car Manufacturer="VtmTPdt" Model="jbqNaRAHMqVgKkcOPFel" Year="2014" Price="91235.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="XnwVksNoVH">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>FKFGdorx</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="zVKNbOL" Model="aWaewYpevvRtrWFFKQOW" Year="2014" Price="95423.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="VtmTPdt" Model="TlXeaqFrhXyZaHHaItdd" Year="2014" Price="90088.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="qzegElxbOE">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>FKFGdorx</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>
