@@ -62,3 +62,11 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 15. Hybrid Mobile Applications (24/09/2014 - 29/09/2014):
 
 	Project: 1 project for 3 days
+	
+16. Android Mobile Applications (01/10/2014 - 13/10/2014):
+
+	Project: 1 project for 3 days
+	
+17. Mobile Applications for iPhone and iPad (20/10/2014 - 07/11/2014):
+
+	Project: 1 project for 3 days
