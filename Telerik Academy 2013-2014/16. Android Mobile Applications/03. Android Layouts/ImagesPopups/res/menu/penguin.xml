@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/penguin_size"
+        android:title="@string/penguin_size"/>
+    <item
+        android:id="@+id/penguin_name"
+        android:title="@string/penguin"/>
+    <item
+        android:id="@+id/penguin_link"
+        android:title="@string/penguin_link"/>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DownloadImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="click_download">Click Here to Download</string>
+    <string name="image_appear">Your image will appear here</string>
+
+</resources>

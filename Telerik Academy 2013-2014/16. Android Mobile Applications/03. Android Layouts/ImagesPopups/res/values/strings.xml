@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImagesPopups</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="penguin">Penguin</string>
+    <string name="cat_size">80 x 106</string>
+    <string name="cat_link">http://en.wikipedia.org/wiki/Cat</string>
+    <string name="dog_size">97 x 80</string>
+    <string name="dog_link">http://en.wikipedia.org/wiki/Dog</string>
+    <string name="penguin_size">80 x 86</string>
+    <string name="penguin_link">http://en.wikipedia.org/wiki/Penguin</string>
+
+</resources>
