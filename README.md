@@ -58,3 +58,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 14. Web Services and Cloud Technologies (09/09/2014 - 19/09/2014):
 
 	Exam: 1 task for 8 hours
+	
+15. Hybrid Mobile Applications (24/09/2014 - 29/09/2014):
+
+	Project: 1 project for 3 days
