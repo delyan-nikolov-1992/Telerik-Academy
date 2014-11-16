@@ -54,3 +54,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 13. Data Structures and Algorithms (20/08/2014 - 14/09/2014):
 
 	Exam: 5 tasks for 8 hours
+	
+14. Web Services and Cloud Technologies (09/09/2014 - 19/09/2014):
+
+	Exam: 1 task for 8 hours
