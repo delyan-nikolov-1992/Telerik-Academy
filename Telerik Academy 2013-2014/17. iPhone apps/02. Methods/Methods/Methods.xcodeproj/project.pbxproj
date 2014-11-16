@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		84A31D1719FBC52A0016BED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A31D1319FBC5290016BED3 /* SampleCalculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A31D0919FBC5290016BED3;
+			remoteInfo = SampleCalculator;
+		};
+		84A31D8F19FBDCD50016BED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A31D8919FBDCD40016BED3 /* SampleTodos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A31D5D19FBDCD40016BED3;
+			remoteInfo = SampleTodos;
+		};
+		84A31D9119FBDCD50016BED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A31D8919FBDCD40016BED3 /* SampleTodos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A31D7919FBDCD40016BED3;
+			remoteInfo = SampleTodosTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A31D1319FBC5290016BED3 /* SampleCalculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleCalculator.xcodeproj; path = SampleCalculator/SampleCalculator.xcodeproj; sourceTree = "<group>"; };
+		84A31D8919FBDCD40016BED3 /* SampleTodos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleTodos.xcodeproj; path = SampleTodos/SampleTodos.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		84A31CF919FBC50C0016BED3 = {
+			isa = PBXGroup;
+			children = (
+				84A31D8919FBDCD40016BED3 /* SampleTodos.xcodeproj */,
+				84A31D1319FBC5290016BED3 /* SampleCalculator.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		84A31D1419FBC5290016BED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A31D1819FBC52A0016BED3 /* SampleCalculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A31D8A19FBDCD40016BED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A31D9019FBDCD50016BED3 /* SampleTodos.app */,
+				84A31D9219FBDCD50016BED3 /* SampleTodosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		84A31CFA19FBC50C0016BED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 84A31CFD19FBC50C0016BED3 /* Build configuration list for PBXProject "Methods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A31CF919FBC50C0016BED3;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84A31D1419FBC5290016BED3 /* Products */;
+					ProjectRef = 84A31D1319FBC5290016BED3 /* SampleCalculator.xcodeproj */;
+				},
+				{
+					ProductGroup = 84A31D8A19FBDCD40016BED3 /* Products */;
+					ProjectRef = 84A31D8919FBDCD40016BED3 /* SampleTodos.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84A31D1819FBC52A0016BED3 /* SampleCalculator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SampleCalculator;
+			remoteRef = 84A31D1719FBC52A0016BED3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A31D9019FBDCD50016BED3 /* SampleTodos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SampleTodos.app;
+			remoteRef = 84A31D8F19FBDCD50016BED3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84A31D9219FBDCD50016BED3 /* SampleTodosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SampleTodosTests.xctest;
+			remoteRef = 84A31D9119FBDCD50016BED3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		84A31CFE19FBC50C0016BED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		84A31CFF19FBC50C0016BED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A31CFD19FBC50C0016BED3 /* Build configuration list for PBXProject "Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A31CFE19FBC50C0016BED3 /* Debug */,
+				84A31CFF19FBC50C0016BED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A31CFA19FBC50C0016BED3 /* Project object */;
+}

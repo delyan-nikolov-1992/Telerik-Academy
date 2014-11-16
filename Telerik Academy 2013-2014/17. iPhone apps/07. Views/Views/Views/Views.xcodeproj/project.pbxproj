@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8443E1311A080982005E829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443E12C1A080981005E829D /* TableView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8443E1031A080980005E829D;
+			remoteInfo = TableView;
+		};
+		8443E1331A080982005E829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443E12C1A080981005E829D /* TableView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8443E11C1A080981005E829D;
+			remoteInfo = TableViewTests;
+		};
+		8443E1811A081B59005E829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443E17C1A081B57005E829D /* CustomTabs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8443E1501A081B56005E829D;
+			remoteInfo = CustomTabs;
+		};
+		8443E1831A081B59005E829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443E17C1A081B57005E829D /* CustomTabs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8443E16C1A081B57005E829D;
+			remoteInfo = CustomTabsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8443E12C1A080981005E829D /* TableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TableView.xcodeproj; path = TableView/TableView.xcodeproj; sourceTree = "<group>"; };
+		8443E17C1A081B57005E829D /* CustomTabs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomTabs.xcodeproj; path = CustomTabs/CustomTabs.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8443E0F31A080944005E829D = {
+			isa = PBXGroup;
+			children = (
+				8443E17C1A081B57005E829D /* CustomTabs.xcodeproj */,
+				8443E12C1A080981005E829D /* TableView.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		8443E12D1A080981005E829D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8443E1321A080982005E829D /* TableView.app */,
+				8443E1341A080982005E829D /* TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8443E17D1A081B57005E829D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8443E1821A081B59005E829D /* CustomTabs.app */,
+				8443E1841A081B59005E829D /* CustomTabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8443E0F41A080944005E829D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 8443E0F71A080944005E829D /* Build configuration list for PBXProject "Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8443E0F31A080944005E829D;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8443E17D1A081B57005E829D /* Products */;
+					ProjectRef = 8443E17C1A081B57005E829D /* CustomTabs.xcodeproj */;
+				},
+				{
+					ProductGroup = 8443E12D1A080981005E829D /* Products */;
+					ProjectRef = 8443E12C1A080981005E829D /* TableView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8443E1321A080982005E829D /* TableView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TableView.app;
+			remoteRef = 8443E1311A080982005E829D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8443E1341A080982005E829D /* TableViewTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TableViewTests.xctest;
+			remoteRef = 8443E1331A080982005E829D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8443E1821A081B59005E829D /* CustomTabs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomTabs.app;
+			remoteRef = 8443E1811A081B59005E829D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8443E1841A081B59005E829D /* CustomTabsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomTabsTests.xctest;
+			remoteRef = 8443E1831A081B59005E829D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		8443E0F81A080944005E829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8443E0F91A080944005E829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8443E0F71A080944005E829D /* Build configuration list for PBXProject "Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443E0F81A080944005E829D /* Debug */,
+				8443E0F91A080944005E829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8443E0F41A080944005E829D /* Project object */;
+}
