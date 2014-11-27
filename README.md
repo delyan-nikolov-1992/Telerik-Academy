@@ -70,3 +70,7 @@ All homeworks, teamworks and exams from Telerik Academy 2013/14:
 17. Mobile Applications for iPhone and iPad (20/10/2014 - 07/11/2014):
 
 	Project: 1 project for 3 days
+	
+18. Windows Universal Applicationa (11/11/2014 - 24/11/2014):
+
+	Project: 1 project for 3 days
